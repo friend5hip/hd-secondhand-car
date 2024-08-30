@@ -7,11 +7,14 @@
     --test-shadow-1: 0 10px 30px rgba(0, 0, 0, 0.2);
     --shadow-1: rgba(0, 0, 0, 0.2);
 }
-ul, li {list-style: none; margin: 0; padding: 0}
+ul, li {list-style: none; margin: 0; padding: 0;}
 a:link, a:visited {text-decoration: none; color: black;}
 .container {
     width: 1180px;
     margin: 0 auto;
+}
+body {
+    font-family: "Noto Sans KR", sans-serif;
 }
 
 /* header */
