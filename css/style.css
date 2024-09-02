@@ -242,7 +242,7 @@ div button[title=top] {
     padding-top: 9px;
     z-index: 1000;
 }
-div button {
+div .topButton {
     position: fixed;
     right: 40px;
     bottom: 40px;
