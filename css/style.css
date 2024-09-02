@@ -199,7 +199,7 @@ body {
 .advTxt span {
     position: relative;
     display: block;
-    padding: 81px 0 0 124px;
+    padding: 81px 124px 81px 124px;
 }
 .section1 em {
     font-style: normal;
