@@ -25,6 +25,106 @@ body {
 
 /* section2 */
 
+.sec2{
+    background: #f7f7f7;
+}
+
+.sec2 p .txt1{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 46px;
+}
+
+.sec2 p .txt2{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 56px;
+}
+
+.sec2 a {
+    margin-top: 20px;
+    width: 200px;
+    padding: 14px;
+    border-radius: 51px;
+    border: 1px solid #DDDDDD;
+    background-color: #fff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.sec2 a:hover {
+    width: 200px;
+    padding: 14px;
+    border-radius: 51px;
+    border: 1px solid #DDDDDD;
+    background-color: #fff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.sec2 .right-box{
+    padding: 48px 12px 126px;
+    border-radius: 20px;
+    border: 1px solid #EDEDED;
+    background-color: #fff;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.12);
+    text-align: center;
+}
+
+.sec2 .right-box p{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.sec2 .right-box p .text-navy{
+    color: #002C5F;
+}
+
+.sec2 .right-box .colorbox{
+    padding: 30px 5px 15px;
+    border-radius: 12px;
+    border: 0 none;
+}
+
+.sec2 .right-box .colorbox p{
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 24px;
+}
+
+.sec2 .right-box .colorbox1{
+    background-color: #F2EEE9;
+    position: relative;
+}
+
+.sec2 .right-box .colorbox2{
+    background-color: #D4E4F3;
+}
+
+.sec2 .right-box .colorbox .big-font{
+    font-size: 27px;
+}
+
+.sec2 .right-box .colorbox1 .plus-icon{
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #002C5F;
+    right: -28px;
+    top: 50%;
+    margin-top: -20px;
+    color: #fff;
+    font-size: 40px;
+    line-height: 35px;
+}
+
 /* section3 */
 
 /* footer */
