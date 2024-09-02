@@ -92,7 +92,11 @@ body {
 
 .ft .ft-text2 p a{
     color: #9C9C9C;
+}
+
+.ft .ft-text2 p .txt-underline{
     text-decoration: underline;
+    text-underline-offset: 3px;
 }
 
 .ft .ft-text3{
