@@ -7,16 +7,29 @@
     --test-shadow-1: 0 10px 30px rgba(0, 0, 0, 0.2);
     --shadow-1: rgba(0, 0, 0, 0.2);
 }
-ul, li {list-style: none; margin: 0; padding: 0;}
+ul, li {list-style: none; margin: 0; padding: 0}
 a:link, a:visited {text-decoration: none; color: black;}
+
 .container {
     width: 1180px;
     margin: 0 auto;
 }
-body {
-    font-family: "Noto Sans KR", sans-serif;
-}
 
+.title .big{font-weight:500;font-size:64px;line-height:68px;color:#000;}
+
+.title .small {font-weight : 400;font-size: 40px;line-height:48px;color : #333333;}
+
+.button.text{font-weight:400;font-size:18px;line-height:24px;}
+
+.bodytxt .medium{font-weight:400;font-size:36px;line-height:46px;}
+
+.bodytxt .big{font-weight:500;font-size:48px;line-height:56px;}
+
+.bodytxt .small{font-weight:400;font-size:18px;line-height:26px;}
+
+.bodytxt .title{font-weight:400;font-size:16px;line-height:24px;}
+
+.bodytxt .bigtitle{font-weight:400;font-size:24px;line-height:24px;}
 /* header */
 
 /* visualWrap */
@@ -26,6 +39,76 @@ body {
 /* section2 */
 
 /* section3 */
+
+/* section4 */
+.section4{
+    background: linear-gradient(270deg, rgba(247, 247, 247, 0) 22.06%, #F7F7F7 30.02%);
+}
+
+.swiper{
+    width: 100%;
+    height: 100%;
+}
+
+
+swiper-slide{
+    width: 60%;
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.4;
+    transition: opacity 0.3s;
+}
+
+swiper-slide.swiper-slide-active{
+    opacity: 1;
+}
+
+.swiper .swiperContentWrap{
+    width: 100%;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.swiper .swiperImgbox{
+    width: 30%;
+    position: relative;
+    overflow: hidden;
+}
+
+.swiper .swiperImgbox::after{
+    display: block;
+    content: "";
+    padding-bottom: 100%;
+}
+.swiper .swiperimg{
+    position: absolute;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    /* transform: translate(50, 50); */
+}
+
+
+
+
+  /* .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
+
+/* section5 */
+.section5TextWrap .number{
+    color: var(--primary-color-1);
+}
+
+.section5TextWrap .section5List .button{
+    background-color: transparent;
+}
 
 /* footer */
 
