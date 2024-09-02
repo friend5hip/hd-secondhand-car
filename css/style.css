@@ -153,7 +153,8 @@ body {
 
 /* section1 */
 .section1 {
-    margin: 120px 0 120px 0;
+    margin-top: 120px;
+    margin-bottom: 120px;
     padding: 0 !important;
 }
 .section1 .sec1Txt {
