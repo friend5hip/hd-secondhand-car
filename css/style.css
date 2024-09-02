@@ -420,4 +420,5 @@ div .topButton {
     font-size: 0;
     text-indent: -9999px;
     transition: all 1s;
+    border: none;
 }
