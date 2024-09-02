@@ -17,6 +17,44 @@ body {
     font-family: "Noto Sans KR", sans-serif;
 }
 
+.title .big{
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 68px;
+    color: #000;
+}
+
+.title .small{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333333;
+}
+
+.button .text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.bodytxt .medium{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+}
+
+.bodytxt .big{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.bodytxt .small{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+
 /* header */
 
 /* visualWrap */
@@ -28,5 +66,61 @@ body {
 /* section3 */
 
 /* footer */
+.ft{
+    background-color: #EDEDED;
+}
+
+.small-logo{
+    display: block;
+    width: 58px;
+    height: 30px;
+    overflow: hidden;
+}
+
+.ft .ft-text1{
+    color: #333333;
+    font-size: 14px;
+}
+
+.ft .ft-text2 p{
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #767676;
+}
+
+.ft .ft-text2 p a{
+    color: #9C9C9C;
+    text-decoration: underline;
+}
+
+.ft .ft-text3{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #9C9C9C;
+}
+
+.ft .ft-icon-text{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -1px;
+    color: #333333;
+}
+
+.ft .ft-icon-btn{
+    width: 36px;
+    height: 36px;
+    margin: 0 auto;
+}
+
+.ft .text-divider{
+    font-size: 15px;
+    color: #CCCCCC;
+}
+
+
 
 /* top */
