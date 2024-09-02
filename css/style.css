@@ -14,23 +14,10 @@ a:link, a:visited {text-decoration: none; color: black;}
     width: 1180px !important;
     margin: 0 auto;
 }
-=======
+
 body {
     font-family: "Noto Sans KR", sans-serif;
 }
-.title .big{font-weight:500;font-size:64px;line-height:68px;color:#000;}
-
-.title .small {font-weight : 400;font-size: 40px;line-height:48px;color : #333333;}
-
-.button.text{font-weight:400;font-size:18;line-height:24px;}
-
-.bodytxt .medium{font-weight:400;font-size:36px;line-height:46px;}
-
-.bodytxt .big{font-weight:500;font-size:48px;line-height:56px;}
-
-.bodytxt .small{font-weight:400;font-size:18px;line-height:26px;}
-
-
 .title .big{font-weight:500;font-size:64px;line-height:68px;color:#000;}
 
 .title .small {font-weight : 400;font-size: 40px;line-height:48px;color : #333333;}
@@ -43,7 +30,7 @@ body {
 
 .bodytxt .small{font-weight:400;font-size:18px;line-height:26px;}
 
-.bodytxt .title{font-weight:400;font-size:16px;line-height:24px;}
+.bodytxt .title{font-weight:400;font-size:16px;line-height:24px;letter-spacing: ;}
 
 .bodytxt .bigtitle{font-weight:400;font-size:24px;line-height:24px;}
 /* header */
@@ -183,7 +170,7 @@ body {
     border: 0 none;
     box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.12);
 }
-.section1 .advTxt {
+.advTxt {
     position: relative;
     width: 580px;
     color: #333333;
@@ -192,7 +179,7 @@ body {
     line-height: 46px;
     margin: 0 auto;
 }
-.section1 .advTxt span {
+.advTxt span {
     position: relative;
     display: block;
     padding: 81px 0 0 124px;
@@ -250,6 +237,15 @@ body {
     background: linear-gradient(270deg, rgba(247, 247, 247, 0) 22.06%, #F7F7F7 30.02%);
 }
 
+.section4::after{
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 528px;
+    background: linear-gradient(270deg, rgba(247, 247, 247, 0) 22.06%, #F7F7F7 30.02%);
+}
+
 .swiper{
     width: 100%;
     height: 100%;
@@ -257,7 +253,7 @@ body {
 
 
 swiper-slide{
-    width: 60%;
+    width: 70%;
     overflow: visible;
     display: flex;
     justify-content: center;
@@ -274,6 +270,10 @@ swiper-slide.swiper-slide-active{
     width: 100%;
     border-radius: 20px;
     background-color: white;
+}
+
+.swiper .swiperTextWrap{
+    width: 50%;
 }
 
 .swiper .swiperImgbox{
