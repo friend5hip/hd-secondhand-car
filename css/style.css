@@ -701,7 +701,9 @@ swiper-slide.swiper-slide-active {
   background-color: #f7f7f7;
   color: #333333;
   height: 142px;
+  /* display: none; */
 }
+
 
 .section5TextWrap .section5List .button {
   background-color: transparent;
