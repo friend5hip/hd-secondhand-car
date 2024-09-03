@@ -790,7 +790,6 @@ div .topButton {
   width: 64px;
   height: 64px;
   border-radius: 50% !important;
-  background-color: #002c5f;
   background-color: var(--primary-color-0);
   background-position: center;
   background-repeat: no-repeat;
