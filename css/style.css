@@ -81,8 +81,6 @@ body {
   font-weight: 500;
   font-size: 24px;
   line-height: 30px;
-
-
 }
 
 /* header */
@@ -184,7 +182,7 @@ body {
 
 /* section1 */
 .section1 {
- /* margin: 120px 0 120px 0;*/
+  /* margin: 120px 0 120px 0;*/
   margin-top: 120px;
   margin-bottom: 120px;
   padding: 0 !important;
@@ -240,7 +238,6 @@ body {
   position: relative;
   display: block;
   padding: 81px 124px 81px 124px;
-
 }
 .section1 em {
   font-style: normal;
@@ -695,7 +692,7 @@ swiper-slide.swiper-slide-active {
   transition: all 0.5s;
 }
 
-.active {
+.greyboxText {
   font-weight: 400;
   font-size: 18px;
   line-height: 26px;
@@ -704,16 +701,6 @@ swiper-slide.swiper-slide-active {
   background-color: #f7f7f7;
   color: #333333;
   height: 142px;
-  /* display: none; */
-}
-
-.greyboxText {
-  max-height: 0px;
-  width: 0px;
-  padding: 0px;
-  font-size: 0px;
-}
-
 }
 
 .section5TextWrap .section5List .button {
