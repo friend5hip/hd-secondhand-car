@@ -692,7 +692,7 @@ swiper-slide.swiper-slide-active {
   transition: all 0.5s;
 }
 
-.active {
+.greyboxText {
   font-weight: 400;
   font-size: 18px;
   line-height: 26px;
@@ -704,12 +704,6 @@ swiper-slide.swiper-slide-active {
   /* display: none; */
 }
 
-.greyboxText {
-  max-height: 0px;
-  width: 0px;
-  padding: 0px;
-  font-size: 0px;
-}
 
 .section5TextWrap .section5List .button {
   background-color: transparent;
